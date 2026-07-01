@@ -8,7 +8,6 @@ RapDev pup extension — fetches all Datadog roles with fully resolved permissio
 pup extension install rapdev-io/pup-rbac
 ```
 
-> **Private repo**: prefix with `GH_TOKEN=$(gh auth token)` if pup returns "no releases found".
 
 ## Usage
 
