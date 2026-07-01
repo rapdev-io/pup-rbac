@@ -10,7 +10,7 @@ import (
 )
 
 func runDump(org string, includeBuiltin bool) {
-	client := pupapi.New()
+	client := pupapi.New(org)
 
 	// Step 1: permission catalog for UUID resolution
 	var permsData permsResp
